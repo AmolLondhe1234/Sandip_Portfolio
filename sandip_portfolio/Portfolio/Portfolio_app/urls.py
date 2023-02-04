@@ -7,4 +7,5 @@ urlpatterns = [
     path('fb',views.fb,name='fb'),
     path('home',views.home,name='home1'),
     path('prjt',views.prjt,name='prjt'),
+    path('feedback',views.fb,name='feedback')
 ]
