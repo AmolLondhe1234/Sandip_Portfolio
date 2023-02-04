@@ -10,7 +10,7 @@ class Feedback(models.Model):
     F_name = models.CharField(max_length=255)
     F_Email = models.EmailField()
     F_mobile = models.CharField(max_length=20)
-    # F_text=models.TextField()  Add kar sndip
+    F_text=models.TextField(default='')
 
 class Certificate(models.Model):
     C_name = models.CharField(max_length=255)
